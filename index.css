@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 50px 400px;
+}
+
+.hex {
+  width: 50px;
+  height: 58px;
+  background: #1e90ff;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #145ea6;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #90ff1e;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
