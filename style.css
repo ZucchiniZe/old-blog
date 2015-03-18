@@ -48,6 +48,7 @@ a, a:visited, a:hover {
 }
 
 .slide-group {
+  margin: 5px;
   padding: 5px;
   border: 2px solid hsla(258, 16%, 55%, 0.5);
   border-radius: 5px;
