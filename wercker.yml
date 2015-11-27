@@ -7,8 +7,8 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - uetchy/gh-pages:
+    - zalari/gh-pages:
         token: $GITHUB_TOKEN
-        repo: ZucchiniZe/zucchinize.github.io
+        repo: zucchinize/zucchinize.github.io
         path: public
         domain: alexb.io
