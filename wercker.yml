@@ -9,6 +9,6 @@ deploy:
         packages: git ssh-client
     - uetchy/gh-pages:
         token: $GITHUB_TOKEN
-        repo: zucchinize/zucchinize.github.io
+        repo: ZucchiniZe/zucchinize.github.io
         path: public
         domain: alexb.io
