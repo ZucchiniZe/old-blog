@@ -7,3 +7,7 @@ tagline = "hello"
 +++
 
 this is some styled stuff
+
+```js
+console.log('test');
+```
