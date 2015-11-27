@@ -1,0 +1,2 @@
+#/bin/bash
+fswatch ./scss | xargs -n1 -J % ./bin/sassc % static/index.css
