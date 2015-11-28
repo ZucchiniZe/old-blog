@@ -22,7 +22,13 @@ Let me just list off a bunch of reasons and then I'll delve into further detail 
 It uses the JSX syntax which provides a bit of sugar on top of JS that allows you to write XML like code in your javascript
 
 ```js
-<div>
-this is valid js with JSX
-</div>
+class MyComponent extends Component {
+  render() {
+    return (
+      <div className='myclass'>
+        this is valid js with JSX
+      </div>
+    )
+  }
+}
 ```
