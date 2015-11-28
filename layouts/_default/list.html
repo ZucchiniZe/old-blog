@@ -1,8 +1,5 @@
 <ul>
   {{ range .Data.Pages }}
-  {{ if not eq .Section "post" }}
-  post
-  {{ end }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <div class="meta">
