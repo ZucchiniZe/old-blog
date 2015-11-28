@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
-<ul>
+<ul id="pages">
   {{ range .Data.Pages }}
-  <li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} :: DRAFT{{ end }}
+  <li class="page">
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} :: DRAFT{{ end }}</h1>
     <div class="meta">
       <div class="date">
         {{ .Date.Format "Mon, Jan 2, 2006" }}

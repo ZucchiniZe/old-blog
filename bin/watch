@@ -1,2 +1,4 @@
 #/bin/bash
+echo 'watch started ctrl-c to exit'
+./bin/sassc scss/index.scss static/index.css
 fswatch ./scss | xargs -n1 -J % ./bin/sassc % static/index.css

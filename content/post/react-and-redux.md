@@ -2,7 +2,7 @@
 date = "2015-11-26T13:35:44-08:00"
 draft = false
 title = "React and redux"
-tagline = "They go hand in hand"
+tagline = "You are going to React well to this post"
 
 +++
 

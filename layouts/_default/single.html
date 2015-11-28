@@ -1,10 +1,12 @@
 {{ partial "header.html" . }}
-<div class="title">
-  <h1>{{ .Title }}</h1>
-  <h3>{{ .ReadingTime }} min read</h3>
-</div>
+<div class="post">
+  <div class="title">
+    <h1>{{ .Title }}</h1>
+    <h3 class="readtime">{{ .ReadingTime }} min read</h3>
+  </div>
 
-<div>
-  {{ .Content }}
+  <div>
+    {{ .Content }}
+  </div>
 </div>
 {{ partial "footer.html" . }}
