@@ -1,20 +1,12 @@
 box: debian
 build:
   steps:
-    - script:
-        name: check branch
-        code: |
-          [ $WERCKER_GIT_BRANCH == "master" ] || exit
     - arjen/hugo-build:
         version: "0.15"
 deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - script:
-        name: copy wercker.yml
-        code: |
-          [ $WERCKER_GIT_BRANCH == "src" ] || cp ./wercker.yml ./public/wercker.yml
     - zalari/gh-pages:
         token: $GITHUB_TOKEN
         repo: ZucchiniZe/ZucchiniZe.github.io
