@@ -34,9 +34,15 @@
 
 &lt;p&gt;It uses the JSX syntax which provides a bit of sugar on top of JS that allows you to write XML like code in your javascript&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;&amp;lt;div&amp;gt;
-this is valid js with JSX
-&amp;lt;/div&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;class MyComponent extends Component {
+  render() {
+    return (
+      &amp;lt;div className=&#39;myclass&#39;&amp;gt;
+        this is valid js with JSX
+      &amp;lt;/div&amp;gt;
+    )
+  }
+}
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
