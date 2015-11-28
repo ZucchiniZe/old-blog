@@ -12,10 +12,10 @@ First of all let me start off with: React and redux are amazing. I have reasons 
 
 Let me just list off a bunch of reasons and then I'll delve into further detail on each of them.
 
-1. You probably already know it!
-2. It is super easy to begin with.
-3. It makes developing webapps fun.
-4. It makes sense.
+* You probably already know it!
+* It is super easy to begin with.
+* It makes developing webapps fun.
+* It makes sense.
 
 ## 1. You probably already know it!
 
