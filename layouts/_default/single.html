@@ -1,6 +1,8 @@
 {{ partial "header.html" . }}
-<h1>{{ .Title }}</h1>
-<h3>{{ .ReadingTime }} min read</h3>
+<div class="title">
+  <h1>{{ .Title }}</h1>
+  <h3>{{ .ReadingTime }} min read</h3>
+</div>
 
 <div>
   {{ .Content }}
