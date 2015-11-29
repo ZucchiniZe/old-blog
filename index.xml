@@ -6,8 +6,27 @@
     <description>Recent content on Reacting to the Modern Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Nov 2015 02:42:29 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2015 03:00:15 -0800</lastBuildDate>
     <atom:link href="https://alexb.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://alexb.io/about/</link>
+      <pubDate>Sun, 29 Nov 2015 03:00:15 -0800</pubDate>
+      
+      <guid>https://alexb.io/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;hi-i-m-alex:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;hi, i&amp;rsquo;m alex&lt;/h1&gt;
+
+&lt;p&gt;I like to make things. If you would like to see what I have made go &lt;a href=&#34;https://alexb.io/projects&#34;&gt;here&lt;/a&gt;.
+Hopefully I can soon add this project to the ranks of the others.&lt;/p&gt;
+
+&lt;p&gt;I exist solely on private networks, but email works fine :)&lt;/p&gt;
+
+&lt;p&gt;contact me at &lt;code&gt;me&lt;/code&gt; at &lt;code&gt;alexb.io&lt;/code&gt; if need be.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ipsum</title>
