@@ -1,6 +1,6 @@
 ---
-date: 2015-11-26T03:02:11-08:00
-draft: true
+date: 2015-11-29T03:00:15-08:00
+draft: false
 title: about
 tagline: hello
 hidetitle: true
