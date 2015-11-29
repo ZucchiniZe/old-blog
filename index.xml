@@ -472,43 +472,5 @@ haud patrem et sed &lt;a href=&#34;http://news.ycombinator.com/&#34;&gt;fores&lt
 </description>
     </item>
     
-    <item>
-      <title>React and redux</title>
-      <link>https://alexb.io/post/react-and-redux/</link>
-      <pubDate>Thu, 26 Nov 2015 13:35:44 -0800</pubDate>
-      
-      <guid>https://alexb.io/post/react-and-redux/</guid>
-      <description>
-
-&lt;p&gt;First of all let me start off with: React and redux are amazing. I have reasons that I can back up with evidence about why they are so awesome, but lets do that one at a time.&lt;/p&gt;
-
-&lt;h2 id=&#34;so-why-is-react-awesome:4256ad10e6ba050b573c51a12c78dca8&#34;&gt;So, Why is react awesome?&lt;/h2&gt;
-
-&lt;p&gt;Let me just list off a bunch of reasons and then I&amp;rsquo;ll delve into further detail on each of them.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You probably already know it!&lt;/li&gt;
-&lt;li&gt;It is super easy to begin with.&lt;/li&gt;
-&lt;li&gt;It makes developing webapps fun.&lt;/li&gt;
-&lt;li&gt;It makes sense.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;1-you-probably-already-know-it:4256ad10e6ba050b573c51a12c78dca8&#34;&gt;1. You probably already know it!&lt;/h2&gt;
-
-&lt;p&gt;It uses the JSX syntax which provides a bit of sugar on top of JS that allows you to write XML like code in your javascript&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;class MyComponent extends Component {
-  render() {
-    return (
-      &amp;lt;div className=&#39;myclass&#39;&amp;gt;
-        this is valid js with JSX
-      &amp;lt;/div&amp;gt;
-    )
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
