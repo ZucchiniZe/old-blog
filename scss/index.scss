@@ -1,7 +1,7 @@
-/*!
+/*
  * CSS for alexb.io
  * please don't steal
-**/
+ */
 
 * {
   -webkit-box-sizing: border-box;
@@ -15,6 +15,11 @@ body {
   font-family: "proxima-nova", sans-serif;
 }
 
+#body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
 }
 
@@ -22,19 +27,7 @@ p, li {
   font-size: 14pt;
 }
 
-code {
-  font-family: "droid-sans-mono", monospace;
-}
-
-blockquote {
-  font-style: italic;
-}
-
-#body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
+/* Navbar styles */
 nav {
   padding: 8px;
   border-bottom: 1px solid #ccc; 
@@ -44,6 +37,10 @@ nav {
     text-decoration: none;
     font-family: georgia, times;
   }
+  span.left-title {
+    float: right;
+    font-variant: small-caps;
+  }
   ul {
     display: inline;
     padding-left: 20px;
@@ -51,9 +48,7 @@ nav {
       list-style: none;
       font-variant: small-caps;
       display: inline;
-      &:not(:last-child) {
-        padding-left: 10px;
-      }
+      padding-right: 5px;
       a {
         text-decoration: none;
         color: #000;
@@ -65,12 +60,13 @@ nav {
   }
 }
 
+/* Index styles */
 ul#pages {
   text-align: center;
   padding: 0;
   li.page {
     list-style: none;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     &:not(:last-child) {
       border-bottom: 1px solid #ccc;
     }
@@ -90,21 +86,37 @@ ul#pages {
         margin: 10px;
       }
       .tagline {
-        font-weight: bold;
       }
     }
   }
 }
 
+/* Post styles */
 .post {
   margin: 25px 0;
-  h1 {
-    margin: 0;
+  .title {
+    border-bottom: 1px solid #ccc;
+    h1 {
+      margin: 0;
+      .date {
+        font-size: 18px;
+        color: #888;
+      }
+    }
+    h3.readtime {
+      color: #888;
+      margin: 15px 0;
+      font-weight: normal;
+    }
   }
-  h3.readtime {
-    color: #888;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-weight: normal;
+  code {
+    font-family: "droid-sans-mono", monospace;
+    border-radius: 5px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  blockquote {
+    font-style: italic;
   }
 }

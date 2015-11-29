@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <div class="post">
   <div class="title">
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Title }} <span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span></h1>
     <h3 class="readtime">{{ .ReadingTime }} min read</h3>
   </div>
 
