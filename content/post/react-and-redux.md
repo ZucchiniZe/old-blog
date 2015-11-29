@@ -1,6 +1,6 @@
 +++
 date = "2015-11-26T13:35:44-08:00"
-draft = false
+draft = true
 title = "React and redux"
 tagline = "You are going to React well to this post"
 

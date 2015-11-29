@@ -2,6 +2,7 @@
  * CSS for alexb.io
  * please don't steal
  */
+/* Variables */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -79,10 +80,14 @@ ul#pages {
       color: #888;
       margin: 15px 0;
       font-weight: normal; }
-  .post code {
+  .post pre code {
     font-family: "droid-sans-mono", monospace;
     border-radius: 5px; }
-    .post code::-webkit-scrollbar {
+    .post pre code::-webkit-scrollbar {
       display: none; }
+  .post code {
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: #f2f2f2; }
   .post blockquote {
     font-style: italic; }
