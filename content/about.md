@@ -12,6 +12,6 @@ hidetitle: true
 I like to make things. If you would like to see what I have made go [here](/projects).
 Hopefully I can soon add this project to the ranks of the others.
 
-I exist solely on private networks, but email works fine :)
+Email works fine, but you may catch me on freenode sometimes under the nickname `ajb`
 
 contact me at `me` at `alexb.io` if need be.

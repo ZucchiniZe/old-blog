@@ -3,6 +3,10 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.15"
+    - script:
+        name: touch wercker.yml
+        code: |
+          touch public/wercker.yml
 deploy:
   steps:
     - install-packages:

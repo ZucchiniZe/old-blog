@@ -6,7 +6,9 @@
 /* Variables */
 $gray: #ccc;
 $darkgray: #888;
+$lightblack: #1d1f21;
 $black: #000;
+$white: #fff;
 
 * {
   -webkit-box-sizing: border-box;
@@ -18,6 +20,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "proxima-nova", sans-serif;
+}
+
+.wf-loading {
+  visibility: hidden;
+}
+
+.wf-active, .wf-inactive {
+  visibility: visible;
 }
 
 #body {
@@ -108,7 +118,7 @@ ul#pages {
         color: $darkgray;
       }
     }
-    h3.readtime {
+    h3 {
       color: $darkgray;
       margin: 15px 0;
       font-weight: normal;
@@ -116,8 +126,14 @@ ul#pages {
   }
   pre {
     code {
+      font-size: 16px;
       font-family: "droid-sans-mono", monospace;
       border-radius: 5px;
+      background-color: $lightblack;
+      overflow-x: hidden;
+      &:hover {
+        overflow-x: scroll;
+      }
       &::-webkit-scrollbar {
         display: none;
       }
@@ -126,7 +142,7 @@ ul#pages {
   code {
     padding: 2px 5px;
     border-radius: 3px;
-    background-color: darken(#fff, 5%);
+    background-color: darken($white, 5%);
   }
   blockquote {
     font-style: italic;
