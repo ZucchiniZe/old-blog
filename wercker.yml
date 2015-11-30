@@ -5,8 +5,7 @@ build:
         version: "0.15"
     - script:
         name: touch wercker.yml
-        code: |
-          echo "box: wercker/default\nbuild:\n  steps:\n    - script:\n        name: pls\n        code: exit 1" > public/wercker.yml
+        code: cat wercker_alt.yml > public/wercker.yml
 deploy:
   steps:
     - install-packages:
