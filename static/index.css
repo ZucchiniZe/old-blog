@@ -11,7 +11,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "proxima-nova", sans-serif; }
+  font-family: "proxima-nova", sans-serif;
+  overflow-x: hidden; }
 
 .wf-loading {
   visibility: hidden; }
@@ -20,7 +21,7 @@ body {
   visibility: visible; }
 
 #body {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto; }
 
 p, li {
@@ -76,26 +77,26 @@ ul#pages {
 .post {
   margin: 25px 0; }
   .post .title {
-    border-bottom: 1px solid #ccc; }
+    max-width: 700px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    text-align: center; }
     .post .title h1 {
-      margin: 0; }
-      .post .title h1 .date {
-        font-size: 18px;
-        color: #888; }
+      margin: 0;
+      font-size: 44px; }
     .post .title h3 {
       color: #888;
       margin: 15px 0;
       font-weight: normal; }
   .post pre code {
+    display: block;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
     font-size: 16px;
     font-family: "droid-sans-mono", monospace;
     border-radius: 5px;
-    background-color: #1d1f21;
-    overflow-x: hidden; }
-    .post pre code:hover {
-      overflow-x: scroll; }
-    .post pre code::-webkit-scrollbar {
-      display: none; }
+    overflow: visible;
+    background-color: #f2f2f2; }
   .post code {
     padding: 2px 5px;
     border-radius: 3px;

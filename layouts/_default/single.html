@@ -2,8 +2,8 @@
 <div class="post">
   {{ if not .Params.hidetitle }}
   <div class="title">
-    <h1>{{ .Title }} <span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span></h1>
-    <h3>{{ .ReadingTime }} min read</h3>
+    <h1>{{ .Title }}</h1>
+    <h3><span class="date">{{ .Date.Format "Jan 2, 2006" }}</span> &#8212 <span class="readingtime">{{ .ReadingTime }} min read</span></h3>
   </div>
   {{ end }}
 

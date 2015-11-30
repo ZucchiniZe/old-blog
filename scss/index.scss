@@ -6,9 +6,9 @@
 /* Variables */
 $gray: #ccc;
 $darkgray: #888;
-$lightblack: #1d1f21;
 $black: #000;
 $white: #fff;
+$darkwhite: darken($white, 5%);
 
 * {
   -webkit-box-sizing: border-box;
@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "proxima-nova", sans-serif;
+  overflow-x: hidden;
 }
 
 .wf-loading {
@@ -31,7 +32,7 @@ body {
 }
 
 #body {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -110,13 +111,13 @@ ul#pages {
 .post {
   margin: 25px 0;
   .title {
+    max-width: 700px;
+    margin: 0 auto;
     border-bottom: 1px solid $gray;
+    text-align: center;
     h1 {
       margin: 0;
-      .date {
-        font-size: 18px;
-        color: $darkgray;
-      }
+      font-size: 44px;
     }
     h3 {
       color: $darkgray;
@@ -126,23 +127,20 @@ ul#pages {
   }
   pre {
     code {
+      display: block;
+      margin: 0 -9999rem;
+      padding: 0.25rem 9999rem;
       font-size: 16px;
       font-family: "droid-sans-mono", monospace;
       border-radius: 5px;
-      background-color: $lightblack;
-      overflow-x: hidden;
-      &:hover {
-        overflow-x: scroll;
-      }
-      &::-webkit-scrollbar {
-        display: none;
-      }
+      overflow: visible;
+      background-color: $darkwhite;
     }
   }
   code {
     padding: 2px 5px;
     border-radius: 3px;
-    background-color: darken($white, 5%);
+    background-color: $darkwhite;
   }
   blockquote {
     font-style: italic;

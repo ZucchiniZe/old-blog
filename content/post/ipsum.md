@@ -10,6 +10,12 @@ draft: false
 
 ## Licet magno vir
 
+```go
+type User struct {
+  name string
+}
+```
+
 Lorem markdownum ambit, neve erat irata; postquam ademptas denique arcanis.
 Tonanti denique tactuque continuere fuit.
 
