@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Reacing to the Modern Web</title>
+    <title>Posts on Reacting to the Modern Web</title>
     <link>https://alexb.io/post/</link>
-    <description>Recent content in Posts on Reacing to the Modern Web</description>
+    <description>Recent content in Posts on Reacting to the Modern Web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Nov 2015 02:42:29 -0800</lastBuildDate>
@@ -20,6 +20,11 @@
 &lt;h1 id=&#34;referebam-inoosque-contra-nescio-valeant-loqui:21ab484bd84b8d1a8fa0068e81ba1a79&#34;&gt;Referebam Inoosque contra nescio valeant loqui&lt;/h1&gt;
 
 &lt;h2 id=&#34;licet-magno-vir:21ab484bd84b8d1a8fa0068e81ba1a79&#34;&gt;Licet magno vir&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;type User struct {
+  name string
+}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Lorem markdownum ambit, neve erat irata; postquam ademptas denique arcanis.
 Tonanti denique tactuque continuere fuit.&lt;/p&gt;
