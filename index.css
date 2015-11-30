@@ -13,6 +13,12 @@ body {
   padding: 0;
   font-family: "proxima-nova", sans-serif; }
 
+.wf-loading {
+  visibility: hidden; }
+
+.wf-active, .wf-inactive {
+  visibility: visible; }
+
 #body {
   max-width: 600px;
   margin: 0 auto; }
@@ -76,13 +82,18 @@ ul#pages {
       .post .title h1 .date {
         font-size: 18px;
         color: #888; }
-    .post .title h3.readtime {
+    .post .title h3 {
       color: #888;
       margin: 15px 0;
       font-weight: normal; }
   .post pre code {
+    font-size: 16px;
     font-family: "droid-sans-mono", monospace;
-    border-radius: 5px; }
+    border-radius: 5px;
+    background-color: #1d1f21;
+    overflow-x: hidden; }
+    .post pre code:hover {
+      overflow-x: scroll; }
     .post pre code::-webkit-scrollbar {
       display: none; }
   .post code {
