@@ -6,7 +6,7 @@ build:
     - script:
         name: touch wercker.yml
         code: |
-          touch public/wercker.yml
+          echo "box: debian\nbuild:\n  steps:\n    - script:\n        name: pls\n        code: exit 1"
 deploy:
   steps:
     - install-packages:
