@@ -1,1 +1,1 @@
-box: debian\nbuild:\n  steps:\n    - script:\n        name: pls\n        code: exit 1
+box: wercker/default\nbuild:\n  steps:\n    - script:\n        name: pls\n        code: exit 1
