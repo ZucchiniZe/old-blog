@@ -107,8 +107,7 @@ ul#pages {
       border-bottom: 1px solid $gray;
     }
     &:hover {
-      background-color: lighten($accent, 40%);
-      /* background-color: lighten(#087f8c, 50%); */
+      background-color: lighten($gray, 18%);
     }
     a {
       color: $black;

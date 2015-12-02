@@ -74,8 +74,7 @@ ul#pages {
     ul#pages li.page:not(:last-child) {
       border-bottom: 1px solid #ccc; }
     ul#pages li.page:hover {
-      background-color: #c7f1d6;
-      /* background-color: lighten(#087f8c, 50%); */ }
+      background-color: #fafafa; }
     ul#pages li.page a {
       color: #000;
       text-decoration: none; }
