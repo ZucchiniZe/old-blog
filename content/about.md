@@ -1,11 +1,11 @@
----
-date: 2015-11-29T03:00:15-08:00
-draft: false
-title: about
-tagline: hello
-hidetitle: true
++++
+date = "2015-11-29T03:00:15-08:00"
+draft = false
+title = "about"
+tagline = "hello"
+hidetitle = true
 
----
++++
 
 # hi, i'm alex
 

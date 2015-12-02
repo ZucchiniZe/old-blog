@@ -4,15 +4,17 @@
   {{ range .Data.Pages }}
   {{ if (eq .Section "post") }}
   <li class="page">
-    <h1><a href="{{ .Permalink }}">{{ .Title }}{{ if .Draft }} :: DRAFT{{ end }}</a></h1>
-    <div class="meta">
-      <div class="date">
-        {{ .Date.Format "Mon, Jan 2, 2006" }}
+    <a href="{{ .Permalink }}">
+      <h1>{{ .Title }}{{ if .Draft }} :: DRAFT{{ end }}</h1>
+      <div class="meta">
+        <div class="date">
+          {{ .Date.Format "Mon, Jan 2, 2006" }}
+        </div>
+        <div class="tagline">
+          {{ .Params.tagline }}
+        </div>
       </div>
-      <div class="tagline">
-        {{ .Params.tagline }}
-      </div>
-    </div>
+    </a>
   </li>
   {{ end }}
   {{ end }}

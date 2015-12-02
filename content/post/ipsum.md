@@ -1,10 +1,10 @@
----
-date: 2015-11-28T02:42:29-08:00
-tagline: "lorem no"
-title: "ipsum"
-draft: false
++++
+date = "2015-11-28T02:42:29-08:00"
+tagline = "lorem no"
+title = "ipsum"
+draft = false
 
----
++++
 
 # Referebam Inoosque contra nescio valeant loqui
 
