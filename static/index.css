@@ -56,7 +56,7 @@ nav {
         text-decoration: none;
         color: #000; }
         nav ul li a:hover {
-          text-decoration: underline; }
+          color: #2EBE62; }
 
 /* Index styles */
 ul#pages {
